@@ -1,0 +1,25 @@
+{
+    "name": "Example",
+    "description": "Build an Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/grapes.png",
+            "32": "/grapes.png",
+            "48": "/grapes.png",
+            "128": "/grapes.png"
+        }
+    },
+    "icons": {
+        "16": "/grapes.png",
+        "32": "/grapes.png",
+        "48": "/grapes.png",
+        "128": "/grapes.png"
+    }
+}
